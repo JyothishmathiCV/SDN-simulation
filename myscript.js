@@ -9,7 +9,7 @@ const mainFile=path.join(__dirname,"./Project-Sim/distproj/src/distproj/Processe
 app.use('/simulation',express.static("./public/"));
 
 app.get('/',(req,res)=>{
-  res.send("Hello world");
+  res.send("Servers Up !");
 })
 
 
@@ -29,11 +29,8 @@ console.log('New connection');
 
 
 function brain(data,socket){
-
+  
 }
-
-
-
 
 
 
