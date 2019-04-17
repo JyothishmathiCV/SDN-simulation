@@ -3,11 +3,9 @@ var velocity=3;
 var mutexLock=0;
 var rect;
 var eventHorizon=[];
-var reqid;
 var i=0;
 var brush;
 var reversedir=false;
-
 
     function draw(){
         clear();
@@ -35,7 +33,6 @@ var reversedir=false;
     function flush(){
         while(eventHorizon.length)
             eventHorizon.pop();
-    console.log(rect[1]);
     }
     function drawRect(color,x,y){
         brush.fillStyle=color;
@@ -57,7 +54,7 @@ var reversedir=false;
     }
 
     function stop(){
-        window.cancelAnimationFrame(reqid);
+        clear();
         reqid=false;
         mutexLock=0;
         i=0;

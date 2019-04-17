@@ -2,19 +2,62 @@
 <html>
 <head>
 	<title>Canvas Resize</title>
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 	<style type="text/css">
-	canvas{
-		border:2px solid black;
-	}
-		body {
-			margin: 0; 	
-			transform: scale(.9)
+		canvas{
+			border:2px solid black;
 		}
-	</style>
+		*{
+			margin:0;
+			padding:0;
+			transition: 0.5s all;
+		}
+			body {
+				margin: 0; 	
+			  height: 100vh;
+			}
+			div{
+				background: white;
+				display: flex;
+			}
+			.parent{
+				border:1px solid black;
+			}
+			.parent>div{
+				width:2%;
+				padding:3%;
+			     margin-left:2px;
+				 margin-right:2px;
+			}
+			.animated{
+				animation-duration: 0.7s;
+			}
+		</style>
 </head>
-<body style="transform: scale(.9)">
-	<!-- <h1 id='name'>Hello !</h1> -->
-	<canvas></canvas>
-	<script type="text/javascript" src='canvas.js'></script>
+<body>
+<div style="width:25vw;padding:6px;" class="parent"></div>
+	<script>
+	var parent=document.querySelector(".parent");
+var inter;
+var colors=["#f44336","#e91e63","#9c27b0","#673ab7","#3f51b5","#2196f3","#f4511e","#cddc39","#fb8c00","#263238"];
+
+	function add(){
+	    var div=document.createElement('div');
+		div.className="animated fadeInRight";
+		div.style.background=colors[Math.floor(Math.random()*colors.length)];
+	    parent.appendChild(div);
+	}
+
+function remove(){
+	var victim=parent.children[0];
+	victim.classList.add("zoomOut");
+	setTimeout(function(){
+		victim.remove();
+	},800)
+}
+
+
+	</script>
 </body>
 </html>

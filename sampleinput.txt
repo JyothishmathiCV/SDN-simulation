@@ -1,0 +1,2 @@
+currsource(Points) sdn destination{color} nexthop(Points) 
+Flowtable
