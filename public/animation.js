@@ -127,3 +127,8 @@ var reversedir=false;
 
     }
 })();
+
+
+
+
+master="lrvmnir bpr sumvbwvr jx bpr lmiwv yjeryrkbi jx qmbm wi \n bpr xjvni mkd ymibrut jx irhx wi bpr riirkvr jx \n ymbinlmtmipw utn qmumbr dj w ipmhh but bj rhnvwdmbr bpr \n yjeryrkbi jx bpr qmbm mvvjudwko bj yt wkbrusurbmbwjk \n lmird jk xjubt trmui jx ibndt \n wb wi kjb mk rmit bmiq bj rashmwk rmvp yjeryrkb mkd wbi \n iwokwxwvmkvr mkd ijyr ynib urymwk nkrashmwkrd bj ower m \n vjyshrbr rashmkmbwjk jkr cjnhd pmer bj lr fnmhwxwrd mkd \n wkiswurd bj invp mk rabrkb bpmb pr vjnhd urmvp bpr ibmbr \n jx rkhwopbrkrd ywkd vmsmlhr jx urvjokwgwko ijnkdhrii \n ijnkd mkd ipmsrhrii ipmsr w dj kjb drry ytirhx bpr xwkmh \n mnbpjuwbt lnb yt rasruwrkvr cwbp qmbm pmi hrxb kj djnlb \n bpmb bpr xjhhjcwko wi bpr sujsru msshwvmbwjk mkd \n wkbrusurbmbwjk w jxxru yt bprjuwri wk bpr pjsr bpmb bpr \n riirkvr jx jqwkmcmk qmumbr cwhh urymwk wkbmvb"
