@@ -1,6 +1,6 @@
 var app = require('express')();
 var server = require('http').Server(app);
-const {spawn}=require('child_process4');
+const {spawn}=require('child_process');
 var io = require('socket.io')(server);
 const path=require('path');
 const mainFile=path.join(__dirname,"./Project-Sim/distproj/src/distproj/ProcessesExample.java");
@@ -9,7 +9,7 @@ const mainFile=path.join(__dirname,"./Project-Sim/distproj/src/distproj/Processe
 app.use('/simulation',express.static("./public/"));
 
 app.get('/',(req,res)=>{
-  res.send("Hello world");
+  res.send("Servers Up !");
 })
 
 
@@ -29,11 +29,8 @@ console.log('New connection');
 
 
 function brain(data,socket){
-
+  
 }
-
-
-
 
 
 

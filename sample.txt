@@ -1,0 +1,4447 @@
+868.5958 Packet#12 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+868.6062 Packet#1750. Generated (Dice rolled: 2) 
+Source  5
+Destination  8
+Flow Not Set
+Packet#1750. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#931
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+868.6097 Packet#931 processed by SDN Controller
+868.6991 Packet#1229 Flow Decisioned by Packet Processor
+868.6991 Packet#1229 Lookup done Packet Removed
+868.6991 Packet#22 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+868.7872 Packet#1751. Generated (Dice rolled: 3) 
+Source  5
+Destination  8
+Flow Not Set
+Packet#1751. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1529
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+868.8061 Packet#1529 processed by SDN Controller
+868.8279 Packet#1752. Generated (Dice rolled: 3) 
+Source  0
+Destination  3
+Flow Not Set
+Packet#1752. localflowcheck Nexthop 1
+Source 0 A
+ Destination 3 D
+Flow table of 0
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+868.9167 Packet#792 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1538
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 6
+868.9385 Packet#1538 processed by SDN Controller
+868.9685 Packet#985 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+869.0525 Packet#389 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#223
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+869.0543 Packet#223 processed by SDN Controller
+Packet#1044. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+869.1497 Packet#1219 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#933
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+869.1730 Packet#933 processed by SDN Controller
+Packet#1746. localflowcheck Nexthop 5
+Source 4 E
+ Destination 7 H
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+Packet#329
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+869.2972 Packet#329 processed by SDN Controller
+Packet#1045. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#75. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+869.3585 Packet#245 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1137
+Source 8 
+Destination 3 
+3: 2: 1: 0: 4: 5: 6: Next Hop: 6
+869.4276 Packet#1137 processed by SDN Controller
+869.5992 Packet#193 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1566
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+869.6013 Packet#1566 processed by SDN Controller
+Packet#1731
+Source 2 
+Destination 7 
+7: 9: 8: 6: 5: 4: 3: Next Hop: 3
+869.7488 Packet#1731 processed by SDN Controller
+Packet#266. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+869.7543 Packet#258 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+869.8388 Packet#1024 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#519
+Source 8 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: Next Hop: 6
+869.9220 Packet#519 processed by SDN Controller
+Packet#1235
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+870.0553 Packet#1235 processed by SDN Controller
+Packet#521
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+870.2453 Packet#521 processed by SDN Controller
+Packet#1153
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 6
+870.3829 Packet#1153 processed by SDN Controller
+Packet#357. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+870.3968 Packet#331 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+870.5328 Packet#86 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#878
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+870.5759 Packet#878 processed by SDN Controller
+870.5853 Packet#218 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#540. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+870.5936 Packet#440 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1634
+Source 4 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: 8: 9: 7: Next Hop: 8
+870.7056 Packet#1634 processed by SDN Controller
+870.7393 Packet#1753. Generated (Dice rolled: 6) 
+Source  6
+Destination  9
+Flow Not Set
+870.8362 Packet#701 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1676
+Source 4 
+Destination 5 
+5: Next Hop: 5
+870.8977 Packet#1676 processed by SDN Controller
+870.9828 Packet#251 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+871.0175 Packet#252 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1718
+Source 4 
+Destination 6 
+6: 5: 8: 9: 7: Next Hop: 5
+871.0451 Packet#1718 processed by SDN Controller
+Packet#678
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+871.2239 Packet#678 processed by SDN Controller
+Packet#1707
+Source 9 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: 8: Next Hop: 8
+871.3421 Packet#1707 processed by SDN Controller
+871.4789 Packet#1754. Generated (Dice rolled: 2) 
+Source  5
+Destination  8
+Flow Not Set
+871.4789 Packet#1746 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1734
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+871.5305 Packet#1734 processed by SDN Controller
+871.6313 Packet#873 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+871.6454 Packet#95 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#323
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+871.6727 Packet#323 processed by SDN Controller
+Packet#1754. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1656
+Source 3 
+Destination 9 
+9: 7: 8: 6: 5: 4: Next Hop: 4
+871.8263 Packet#1656 processed by SDN Controller
+Packet#1698
+Source 2 
+Destination 3 
+3: Next Hop: 3
+871.9386 Packet#1698 processed by SDN Controller
+872.0311 Packet#1347 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1663
+Source 4 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: 8: 9: 7: Next Hop: 3
+872.0479 Packet#1663 processed by SDN Controller
+872.0999 Packet#1167 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+872.1607 Packet#674 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1690
+Source 4 
+Destination 5 
+5: Next Hop: 5
+872.1851 Packet#1690 processed by SDN Controller
+872.3338 Packet#1170 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+872.3656 Packet#429 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#227
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+872.3676 Packet#227 processed by SDN Controller
+872.4146 Packet#478 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+872.5059 Packet#1755. Generated (Dice rolled: 6) 
+Source  0
+Destination  3
+Flow Not Set
+Packet#1755. localflowcheck Nexthop 1
+Source 0 A
+ Destination 3 D
+Flow table of 0
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1354
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+872.5234 Packet#1354 processed by SDN Controller
+872.5910 Packet#184 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1652
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 9
+872.7071 Packet#1652 processed by SDN Controller
+872.7863 Packet#1496 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+872.8224 Packet#464 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+872.8313 Packet#946 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#426
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+872.8972 Packet#426 processed by SDN Controller
+872.9140 Packet#497 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+872.9728 Packet#719 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1728
+Source 4 
+Destination 6 
+6: 5: 8: 9: 7: Next Hop: 5
+873.0295 Packet#1728 processed by SDN Controller
+873.0571 Packet#1590 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#379
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+873.1974 Packet#379 processed by SDN Controller
+Packet#1688
+Source 3 
+Destination 4 
+4: Next Hop: 4
+873.3850 Packet#1688 processed by SDN Controller
+Packet#1660
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 4
+873.5523 Packet#1660 processed by SDN Controller
+873.6481 Packet#1756. Generated (Dice rolled: 4) 
+Source  6
+Destination  9
+Flow Not Set
+873.6567 Packet#1187 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+873.6834 Packet#328 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+873.7145 Packet#1452 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1696
+Source 5 
+Destination 6 
+6: Next Hop: 6
+873.7472 Packet#1696 processed by SDN Controller
+873.7711 Packet#161 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+873.8197 Packet#334 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#391
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+873.9032 Packet#391 processed by SDN Controller
+873.9746 Packet#1173 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+874.0862 Packet#1467 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1729
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+874.1022 Packet#1729 processed by SDN Controller
+874.1347 Packet#1501 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+874.2442 Packet#1147 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1735
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+874.2589 Packet#1735 processed by SDN Controller
+Packet#1741
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+874.3619 Packet#1741 processed by SDN Controller
+874.4205 Packet#1523 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+874.4254 Packet#1505 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1742
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+874.4719 Packet#1742 processed by SDN Controller
+874.5412 Packet#898 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+874.5558 Packet#1757. Generated (Dice rolled: 5) 
+Source  8
+Destination  1
+Flow Not Set
+Packet#681
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+874.5896 Packet#681 processed by SDN Controller
+Packet#1390
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+874.7450 Packet#1390 processed by SDN Controller
+874.8696 Packet#609 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1737
+Source 1 
+Destination 3 
+3: 2: 4: 5: 6: 8: 9: 7: Next Hop: 2
+874.9284 Packet#1737 processed by SDN Controller
+875.0830 Packet#1150 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1739
+Source 1 
+Destination 3 
+3: 2: 4: 5: 6: 8: 9: 7: Next Hop: 2
+875.1106 Packet#1739 processed by SDN Controller
+875.1282 Packet#611 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1716
+Source 1 
+Destination 2 
+2: Next Hop: 2
+875.2552 Packet#1716 processed by SDN Controller
+Packet#1736
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+875.3800 Packet#1736 processed by SDN Controller
+Packet#1166
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 6
+875.5083 Packet#1166 processed by SDN Controller
+875.5586 Packet#1758. Generated (Dice rolled: 3) 
+Source  9
+Destination  2
+Flow Not Set
+875.5586 Packet#1707 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 4  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+875.5892 Packet#1377 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1442
+Source 6 
+Destination 6 
+6: 5: 4: 3: 2: 1: 0: 8: 9: 7: Next Hop: 6
+875.6602 Packet#1442 processed by SDN Controller
+875.8143 Packet#1528 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1447
+Source 6 
+Destination 6 
+6: 5: 4: 3: 2: 1: 0: 8: 9: 7: Next Hop: 6
+875.8411 Packet#1447 processed by SDN Controller
+875.8648 Packet#1734 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 0  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1758. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+875.9952 Packet#1188 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1743
+Source 1 
+Destination 3 
+3: 2: 4: 5: 6: 8: 9: 7: Next Hop: 2
+876.0164 Packet#1743 processed by SDN Controller
+876.0429 Packet#1759. Generated (Dice rolled: 6) 
+Source  7
+Destination  0
+Flow Not Set
+Packet#1759. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1453
+Source 6 
+Destination 6 
+6: 5: 4: 3: 2: 1: 0: 8: 9: 7: Next Hop: 2
+876.1686 Packet#1453 processed by SDN Controller
+Packet#1552
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+876.3430 Packet#1552 processed by SDN Controller
+Packet#1579
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+876.4802 Packet#1579 processed by SDN Controller
+Packet#1533. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+876.5544 Packet#339 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+876.5760 Packet#1760. Generated (Dice rolled: 6) 
+Source  6
+Destination  9
+Flow Not Set
+Packet#1485
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+876.5853 Packet#1485 processed by SDN Controller
+876.6368 Packet#499 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+876.6987 Packet#619 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+876.7229 Packet#911 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1580
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+876.7317 Packet#1580 processed by SDN Controller
+876.8285 Packet#1761. Generated (Dice rolled: 3) 
+Source  3
+Destination  6
+Flow Not Set
+876.8285 Packet#1648 Flow Decisioned by Packet Processor
+876.8285 Packet#1648 Lookup done Packet Removed
+876.8285 Packet#1636 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 7  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1240
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+876.8425 Packet#1240 processed by SDN Controller
+876.8846 Packet#1650 Flow Decisioned by Packet Processor
+876.8846 Packet#1650 Lookup done Packet Removed
+876.8846 Packet#1651 Flow Decisioned by Packet Processor
+876.8846 Packet#1651 Lookup done Packet Removed
+876.8846 Packet#1720 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1503
+Source 6 
+Destination 8 
+8: Next Hop: 8
+876.9573 Packet#1503 processed by SDN Controller
+877.1161 Packet#1762. Generated (Dice rolled: 1) 
+Source  1
+Destination  9
+Flow Not Set
+877.1161 Packet#1752 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1740
+Source 4 
+Destination 6 
+6: 5: 8: 9: 7: Next Hop: 5
+877.1381 Packet#1740 processed by SDN Controller
+Packet#1705
+Source 4 
+Destination 5 
+5: Next Hop: 5
+877.2551 Packet#1705 processed by SDN Controller
+Packet#1706
+Source 4 
+Destination 5 
+5: Next Hop: 5
+877.4204 Packet#1706 processed by SDN Controller
+877.4551 Packet#1722 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1504
+Source 6 
+Destination 8 
+8: Next Hop: 8
+877.5275 Packet#1504 processed by SDN Controller
+877.5316 Packet#1389 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+877.5991 Packet#1763. Generated (Dice rolled: 4) 
+Source  1
+Destination  4
+Flow Not Set
+877.6383 Packet#1723 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+877.6800 Packet#1755 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1713
+Source 4 
+Destination 5 
+5: Next Hop: 5
+877.7151 Packet#1713 processed by SDN Controller
+877.7505 Packet#1764. Generated (Dice rolled: 4) 
+Source  7
+Destination  0
+Flow Not Set
+Packet#1764. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+877.8086 Packet#1656 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 9  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1686
+Source 4 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: 8: 9: 7: Next Hop: 5
+877.8573 Packet#1686 processed by SDN Controller
+877.8875 Packet#1737 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 3  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+877.9028 Packet#912 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+877.9603 Packet#387 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+877.9957 Packet#1196 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1509
+Source 6 
+Destination 8 
+8: Next Hop: 8
+878.0485 Packet#1509 processed by SDN Controller
+878.1157 Packet#1217 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1168
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+878.2343 Packet#1168 processed by SDN Controller
+878.2451 Packet#1688 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 4  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+878.2588 Packet#1739 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 3  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#12
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+878.3787 Packet#12 processed by SDN Controller
+Packet#548. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+878.4033 Packet#358 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#245
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+878.5202 Packet#245 processed by SDN Controller
+Packet#193
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+878.6726 Packet#193 processed by SDN Controller
+878.6966 Packet#1765. Generated (Dice rolled: 6) 
+Source  5
+Destination  8
+Flow Not Set
+878.6966 Packet#1652 Flow Decisioned by Packet Processor
+878.6966 Packet#1652 Lookup done Packet Removed
+878.6966 Packet#1660 Flow Decisioned by Packet Processor
+878.6966 Packet#1660 Lookup done Packet Removed
+878.6966 Packet#1696 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 6  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+878.6988 Packet#1736 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 7  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+878.7229 Packet#1383 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+878.7600 Packet#1729 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#440
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+878.8470 Packet#440 processed by SDN Controller
+Packet#1537. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+879.0000 Packet#11 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+879.0022 Packet#446 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+879.0195 Packet#944 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#701
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+879.0383 Packet#701 processed by SDN Controller
+879.1824 Packet#1766. Generated (Dice rolled: 4) 
+Source  6
+Destination  9
+Flow Not Set
+Packet#1746
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+879.2090 Packet#1746 processed by SDN Controller
+Packet#1765. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+879.2501 Packet#1388 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+879.3088 Packet#1735 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1347
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+879.3728 Packet#1347 processed by SDN Controller
+879.3794 Packet#501 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+879.4028 Packet#1767. Generated (Dice rolled: 1) 
+Source  6
+Destination  8
+Flow Not Set
+879.4255 Packet#1716 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 2  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#674
+Source 6 
+Destination 5 
+5: 4: 3: 2: 1: 0: Next Hop: 5
+879.4750 Packet#674 processed by SDN Controller
+879.4766 Packet#1768. Generated (Dice rolled: 5) 
+Source  7
+Destination  0
+Flow Not Set
+Packet#1768. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+879.5431 Packet#722 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+879.6203 Packet#526 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1170
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+879.6732 Packet#1170 processed by SDN Controller
+Packet#429
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+879.8401 Packet#429 processed by SDN Controller
+879.9009 Packet#1741 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#478
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+879.9939 Packet#478 processed by SDN Controller
+880.1093 Packet#1035 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1496
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+880.1284 Packet#1496 processed by SDN Controller
+880.1350 Packet#1742 Flow Decisioned by Packet Processor
+check
+Source  3  Destination 5  Nexthop 4
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+880.1494 Packet#1769. Generated (Dice rolled: 2) 
+Source  9
+Destination  2
+Flow Not Set
+880.1494 Packet#1759 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#464
+Source 8 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: Next Hop: 6
+880.2388 Packet#464 processed by SDN Controller
+Packet#946
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+880.3467 Packet#946 processed by SDN Controller
+880.3748 Packet#1743 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 3  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+880.4375 Packet#550 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#497
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+880.4783 Packet#497 processed by SDN Controller
+Packet#719
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+880.6196 Packet#719 processed by SDN Controller
+880.7114 Packet#1220 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+880.7263 Packet#1764 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1761. localflowcheck Nexthop 4
+Source 3 D
+ Destination 6 G
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+Packet#1590
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+880.7686 Packet#1590 processed by SDN Controller
+880.8043 Packet#1762 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1187
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+880.9076 Packet#1187 processed by SDN Controller
+881.0009 Packet#866 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+881.0419 Packet#1768 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1769. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1452
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+881.0977 Packet#1452 processed by SDN Controller
+881.1481 Packet#559 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+881.1742 Packet#537 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+881.1971 Packet#1384 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#161
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+881.2033 Packet#161 processed by SDN Controller
+Packet#1173
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 6
+881.3139 Packet#1173 processed by SDN Controller
+881.3332 Packet#1431 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+881.3762 Packet#612 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+881.3853 Packet#1770. Generated (Dice rolled: 3) 
+Source  1
+Destination  4
+Flow Not Set
+881.3930 Packet#1532 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+881.4076 Packet#604 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+881.4424 Packet#1249 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1467
+Source 6 
+Destination 6 
+6: 5: 4: 3: 2: 1: 0: 8: 9: 7: Next Hop: 6
+881.4441 Packet#1467 processed by SDN Controller
+881.4683 Packet#597 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+881.5650 Packet#1573 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+881.5804 Packet#115 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+881.6128 Packet#481 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1501
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+881.6392 Packet#1501 processed by SDN Controller
+881.7045 Packet#1547 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+881.7244 Packet#1771. Generated (Dice rolled: 5) 
+Source  1
+Destination  4
+Flow Not Set
+Packet#1763. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#1770. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#1771. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+881.7678 Packet#1548 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1147
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+881.8263 Packet#1147 processed by SDN Controller
+881.8272 Packet#1772. Generated (Dice rolled: 5) 
+Source  5
+Destination  8
+Flow Not Set
+881.8272 Packet#1746 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 7  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+881.8882 Packet#1773. Generated (Dice rolled: 1) 
+Source  5
+Destination  7
+Flow Not Set
+Packet#1523
+Source 6 
+Destination 8 
+8: Next Hop: 8
+881.9738 Packet#1523 processed by SDN Controller
+Packet#1186. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+882.0038 Packet#502 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+882.0325 Packet#608 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1505
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+882.1394 Packet#1505 processed by SDN Controller
+882.2035 Packet#750 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+882.2258 Packet#1236 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#898
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+882.2914 Packet#898 processed by SDN Controller
+882.3026 Packet#1774. Generated (Dice rolled: 4) 
+Source  7
+Destination  0
+Flow Not Set
+Packet#1774. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1772. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+882.4291 Packet#1773 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1150
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+882.4729 Packet#1150 processed by SDN Controller
+882.5867 Packet#881 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1377
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+882.6460 Packet#1377 processed by SDN Controller
+Packet#109. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+882.6557 Packet#190 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+882.7699 Packet#1599 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1528
+Source 6 
+Destination 8 
+8: Next Hop: 8
+882.8065 Packet#1528 processed by SDN Controller
+882.9721 Packet#1775. Generated (Dice rolled: 2) 
+Source  2
+Destination  5
+Flow Not Set
+882.9721 Packet#1669 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 3  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+Packet#1188
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+882.9791 Packet#1188 processed by SDN Controller
+883.1084 Packet#1776. Generated (Dice rolled: 5) 
+Source  9
+Destination  2
+Flow Not Set
+883.1084 Packet#1774 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+883.1419 Packet#485 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#499
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+883.1761 Packet#499 processed by SDN Controller
+883.2608 Packet#536 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#911
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+883.2994 Packet#911 processed by SDN Controller
+Packet#1776. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+883.3436 Packet#1687 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+883.3944 Packet#162 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1752
+Source 1 
+Destination 3 
+3: 2: 4: 5: 6: 8: 9: 7: Next Hop: 2
+883.4594 Packet#1752 processed by SDN Controller
+Packet#1717. localflowcheck Nexthop 3
+Source 2 C
+ Destination 5 F
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+883.4640 Packet#1681 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 3  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+Packet#1755
+Source 1 
+Destination 3 
+3: 2: 4: 5: 6: 8: 9: 7: Next Hop: 2
+883.5634 Packet#1755 processed by SDN Controller
+Packet#730. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+883.5686 Packet#333 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+883.6014 Packet#1694 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 6  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+Packet#912
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+883.7597 Packet#912 processed by SDN Controller
+883.8333 Packet#104 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+883.8564 Packet#1747 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1196
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+883.9197 Packet#1196 processed by SDN Controller
+Packet#1217
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+884.0763 Packet#1217 processed by SDN Controller
+884.0917 Packet#1777. Generated (Dice rolled: 5) 
+Source  7
+Destination  0
+Flow Not Set
+Packet#1777. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+884.1865 Packet#727 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+884.2260 Packet#1725 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 8  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+884.2368 Packet#1778. Generated (Dice rolled: 1) 
+Source  5
+Destination  8
+Flow Not Set
+Packet#1778. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#944
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+884.2474 Packet#944 processed by SDN Controller
+884.3289 Packet#1016 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#501
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+884.3970 Packet#501 processed by SDN Controller
+884.4479 Packet#1779. Generated (Dice rolled: 1) 
+Source  5
+Destination  2
+Flow Not Set
+884.4479 Packet#1779 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+884.4774 Packet#1731 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 7  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+Packet#722
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+884.5503 Packet#722 processed by SDN Controller
+884.5613 Packet#1698 Flow Decisioned by Packet Processor
+check
+Source  2  Destination 3  Nexthop 3
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+884.6390 Packet#1013 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1603. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+884.6788 Packet#1037 Flow Decisioned by Packet Processor
+884.6788 Packet#1037 Lookup done Packet Removed
+884.6788 Packet#311 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+884.6802 Packet#1780. Generated (Dice rolled: 5) 
+Source  4
+Destination  7
+Flow Not Set
+884.6802 Packet#1634 Flow Decisioned by Packet Processor
+884.6802 Packet#1634 Lookup done Packet Removed
+884.6802 Packet#1676 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 5  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+884.6998 Packet#1737 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+884.7270 Packet#1718 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 6  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+Packet#1759
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+884.7390 Packet#1759 processed by SDN Controller
+884.7583 Packet#1676 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+884.8215 Packet#1718 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+884.8262 Packet#1739 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1220
+Source 6 
+Destination 5 
+5: 4: 3: 2: 1: 0: Next Hop: 5
+884.8799 Packet#1220 processed by SDN Controller
+884.9803 Packet#1716 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1764
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+884.9835 Packet#1764 processed by SDN Controller
+885.0181 Packet#1743 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1762
+Source 1 
+Destination 9 
+9: 7: 8: 6: 5: 4: 3: 2: Next Hop: 2
+885.1622 Packet#1762 processed by SDN Controller
+885.1656 Packet#229 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+885.1694 Packet#1663 Flow Decisioned by Packet Processor
+885.1694 Packet#1663 Lookup done Packet Removed
+885.1694 Packet#1690 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 5  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+885.2137 Packet#1763 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1768
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+885.2676 Packet#1768 processed by SDN Controller
+885.3306 Packet#1256 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1384
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+885.4100 Packet#1384 processed by SDN Controller
+885.4687 Packet#350 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1532
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+885.5109 Packet#1532 processed by SDN Controller
+885.5550 Packet#1770 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+885.5634 Packet#1771 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1249
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+885.6539 Packet#1249 processed by SDN Controller
+885.6594 Packet#1781. Generated (Dice rolled: 4) 
+Source  8
+Destination  1
+Flow Not Set
+885.6873 Packet#1728 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 6  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+885.6892 Packet#1257 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+885.7066 Packet#1156 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1636. localflowcheck Nexthop 5
+Source 4 E
+ Destination 7 H
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+885.7610 Packet#1720 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+885.7724 Packet#574 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#597
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+885.7745 Packet#597 processed by SDN Controller
+Packet#1775. localflowcheck Nexthop 3
+Source 2 C
+ Destination 5 F
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+885.8456 Packet#165 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#148. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+885.8475 Packet#262 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1573
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+885.9069 Packet#1573 processed by SDN Controller
+885.9683 Packet#1782. Generated (Dice rolled: 4) 
+Source  4
+Destination  7
+Flow Not Set
+885.9945 Packet#514 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#115
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+886.0240 Packet#115 processed by SDN Controller
+886.1520 Packet#955 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#481
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+886.1909 Packet#481 processed by SDN Controller
+886.2649 Packet#728 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+886.2806 Packet#1740 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 6  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+886.2839 Packet#1164 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+886.2900 Packet#81 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1547
+Source 6 
+Destination 8 
+8: Next Hop: 8
+886.2958 Packet#1547 processed by SDN Controller
+886.3619 Packet#766 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+886.3912 Packet#1783. Generated (Dice rolled: 6) 
+Source  6
+Destination  9
+Flow Not Set
+Packet#1548
+Source 6 
+Destination 8 
+8: Next Hop: 8
+886.4024 Packet#1548 processed by SDN Controller
+886.4777 Packet#1705 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 5  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+886.5128 Packet#1722 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#502
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+886.5479 Packet#502 processed by SDN Controller
+886.6119 Packet#1784. Generated (Dice rolled: 2) 
+Source  2
+Destination  5
+Flow Not Set
+Packet#1784. localflowcheck Nexthop 3
+Source 2 C
+ Destination 5 F
+Flow table of 2
+-1
+-1
+-1
+-1
+-1
+3
+-1
+-1
+-1
+-1
+Packet#1773
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+886.6548 Packet#1773 processed by SDN Controller
+Packet#1599
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+886.7576 Packet#1599 processed by SDN Controller
+886.7638 Packet#1706 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 5  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+886.8686 Packet#1785. Generated (Dice rolled: 3) 
+Source  1
+Destination  4
+Flow Not Set
+886.8686 Packet#1752 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 3  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#1774
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+886.8895 Packet#1774 processed by SDN Controller
+887.0169 Packet#516 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.0462 Packet#1755 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 3  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#485
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+887.0714 Packet#485 processed by SDN Controller
+887.1298 Packet#468 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.1609 Packet#1723 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.1625 Packet#1656 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.2229 Packet#1713 Flow Decisioned by Packet Processor
+check
+Source  4  Destination 5  Nexthop 5
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+887.2276 Packet#1762 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 9  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#536
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+887.2399 Packet#536 processed by SDN Controller
+887.3442 Packet#236 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1687
+Source 2 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: 8: 9: 7: Next Hop: 6
+887.4226 Packet#1687 processed by SDN Controller
+887.5024 Packet#923 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#162
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+887.5352 Packet#162 processed by SDN Controller
+887.6454 Packet#1165 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.6456 Packet#1191 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+887.6552 Packet#1022 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#333
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+887.6778 Packet#333 processed by SDN Controller
+Packet#1785. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+887.8113 Packet#1686 Flow Decisioned by Packet Processor
+887.8113 Packet#1686 Lookup done Packet Removed
+887.8113 Packet#1688 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#104
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+887.8268 Packet#104 processed by SDN Controller
+887.8983 Packet#812 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+887.9252 Packet#117 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1747
+Source 2 
+Destination 4 
+4: 3: 5: 6: 8: 9: 7: Next Hop: 3
+887.9309 Packet#1747 processed by SDN Controller
+Packet#727
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+888.0350 Packet#727 processed by SDN Controller
+888.0512 Packet#1192 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+888.1481 Packet#1729 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1779
+Source 5 
+Destination 2 
+2: 1: 0: 3: 4: Next Hop: 4
+888.1806 Packet#1779 processed by SDN Controller
+Packet#1013
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 4
+888.3226 Packet#1013 processed by SDN Controller
+888.3488 Packet#1786. Generated (Dice rolled: 1) 
+Source  6
+Destination  0
+Flow Not Set
+Packet#1737
+Source 2 
+Destination 3 
+3: Next Hop: 3
+888.4568 Packet#1737 processed by SDN Controller
+888.5183 Packet#318 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+888.5335 Packet#322 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1676
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 3
+888.5572 Packet#1676 processed by SDN Controller
+Packet#1718
+Source 5 
+Destination 6 
+6: Next Hop: 6
+888.7244 Packet#1718 processed by SDN Controller
+888.7567 Packet#1735 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+888.8263 Packet#1741 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1739
+Source 2 
+Destination 3 
+3: Next Hop: 3
+888.8526 Packet#1739 processed by SDN Controller
+888.8934 Packet#1742 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1716
+Source 2 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: 8: 9: 7: Next Hop: 3
+889.0310 Packet#1716 processed by SDN Controller
+889.0808 Packet#1056 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+889.1340 Packet#1761 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+889.1477 Packet#522 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1743
+Source 2 
+Destination 3 
+3: Next Hop: 3
+889.1995 Packet#1743 processed by SDN Controller
+889.1999 Packet#817 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1780. localflowcheck Nexthop 5
+Source 4 E
+ Destination 7 H
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+Packet#1782. localflowcheck Nexthop 5
+Source 4 E
+ Destination 7 H
+Flow table of 4
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+5
+-1
+-1
+Packet#1763
+Source 2 
+Destination 4 
+4: 3: 5: 6: 8: 9: 7: Next Hop: 3
+889.3130 Packet#1763 processed by SDN Controller
+Packet#1256
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+889.4432 Packet#1256 processed by SDN Controller
+Packet#1770
+Source 2 
+Destination 4 
+4: 3: 5: 6: 8: 9: 7: Next Hop: 3
+889.6252 Packet#1770 processed by SDN Controller
+889.6889 Packet#818 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+889.7103 Packet#1787. Generated (Dice rolled: 4) 
+Source  9
+Destination  2
+Flow Not Set
+889.7103 Packet#1777 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+889.7303 Packet#620 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1771
+Source 2 
+Destination 4 
+4: 3: 5: 6: 8: 9: 7: Next Hop: 3
+889.7951 Packet#1771 processed by SDN Controller
+889.8746 Packet#135 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+889.8930 Packet#337 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+889.8981 Packet#829 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+889.9106 Packet#835 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1563. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+889.9188 Packet#1162 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1257
+Source 6 
+Destination 4 
+4: 3: 2: 1: 0: 5: Next Hop: 5
+889.9511 Packet#1257 processed by SDN Controller
+889.9764 Packet#1203 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1613. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+889.9836 Packet#840 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1156
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+890.1109 Packet#1156 processed by SDN Controller
+890.2157 Packet#1583 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1720
+Source 4 
+Destination 5 
+5: Next Hop: 5
+890.2415 Packet#1720 processed by SDN Controller
+890.3430 Packet#1788. Generated (Dice rolled: 4) 
+Source  5
+Destination  8
+Flow Not Set
+890.3430 Packet#1690 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+890.3945 Packet#1759 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 0  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#165
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+890.4303 Packet#165 processed by SDN Controller
+890.4446 Packet#1789. Generated (Dice rolled: 3) 
+Source  9
+Destination  2
+Flow Not Set
+890.5846 Packet#1728 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#514
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+890.6263 Packet#514 processed by SDN Controller
+890.6274 Packet#1764 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 0  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#955
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+890.7475 Packet#955 processed by SDN Controller
+890.7796 Packet#531 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+890.7970 Packet#1790. Generated (Dice rolled: 2) 
+Source  1
+Destination  4
+Flow Not Set
+Packet#1790. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+890.8067 Packet#1791. Generated (Dice rolled: 4) 
+Source  5
+Destination  8
+Flow Not Set
+890.8349 Packet#776 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+890.8518 Packet#720 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 3  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+890.8878 Packet#1565 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+890.8912 Packet#1768 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 0  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#728
+Source 6 
+Destination 0 
+0: 1: 2: 3: 4: 5: Next Hop: 5
+890.9092 Packet#728 processed by SDN Controller
+890.9195 Packet#1774 Flow Decisioned by Packet Processor
+check
+Source  9  Destination 0  Nexthop 8
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1164
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+891.0797 Packet#1164 processed by SDN Controller
+Packet#1787. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1789. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#81
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+891.1953 Packet#81 processed by SDN Controller
+891.2239 Packet#1792. Generated (Dice rolled: 1) 
+Source  3
+Destination  5
+Flow Not Set
+891.2239 Packet#1669 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+891.2320 Packet#1281 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#766
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+891.3139 Packet#766 processed by SDN Controller
+891.3658 Packet#1266 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+891.3749 Packet#544 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1722
+Source 4 
+Destination 5 
+5: Next Hop: 5
+891.4166 Packet#1722 processed by SDN Controller
+Packet#516
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+891.5438 Packet#516 processed by SDN Controller
+891.5948 Packet#1793. Generated (Dice rolled: 3) 
+Source  9
+Destination  2
+Flow Not Set
+Packet#1793. localflowcheck Nexthop 8
+Source 9 J
+ Destination 2 C
+Flow table of 9
+-1
+-1
+8
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+891.6382 Packet#1717 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+891.6752 Packet#1636 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#468
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+891.6807 Packet#468 processed by SDN Controller
+891.7442 Packet#1681 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1723
+Source 4 
+Destination 5 
+5: Next Hop: 5
+891.8502 Packet#1723 processed by SDN Controller
+891.9329 Packet#1062 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+891.9368 Packet#1246 Flow Decisioned by Packet Processor
+891.9368 Packet#1246 Lookup done Packet Removed
+891.9368 Packet#1207 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+892.0199 Packet#1740 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.0240 Packet#1255 Flow Decisioned by Packet Processor
+892.0240 Packet#1255 Lookup done Packet Removed
+892.0240 Packet#1259 Flow Decisioned by Packet Processor
+892.0240 Packet#1259 Lookup done Packet Removed
+892.0240 Packet#763 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#1656
+Source 4 
+Destination 9 
+9: 7: 8: 6: 5: Next Hop: 5
+892.0375 Packet#1656 processed by SDN Controller
+892.0483 Packet#1794. Generated (Dice rolled: 3) 
+Source  8
+Destination  1
+Flow Not Set
+892.0743 Packet#1612 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.1404 Packet#1267 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#732. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+892.1626 Packet#847 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#236
+Source 6 
+Destination 5 
+5: 4: 3: 2: 1: 0: Next Hop: 5
+892.1663 Packet#236 processed by SDN Controller
+892.1720 Packet#269 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#371. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+892.2129 Packet#767 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 7  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#923
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+892.2958 Packet#923 processed by SDN Controller
+Packet#1165
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+892.4284 Packet#1165 processed by SDN Controller
+Packet#297. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1619. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+892.4300 Packet#928 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.4563 Packet#1795. Generated (Dice rolled: 1) 
+Source  1
+Destination  0
+Flow Not Set
+892.4563 Packet#1795 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1071. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1073. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+892.4609 Packet#934 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.4994 Packet#1796. Generated (Dice rolled: 6) 
+Source  5
+Destination  8
+Flow Not Set
+Packet#1694. localflowcheck Nexthop 4
+Source 3 D
+ Destination 6 G
+Flow table of 3
+-1
+-1
+-1
+-1
+-1
+-1
+4
+-1
+-1
+-1
+892.5900 Packet#1725 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1191
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 9
+892.5909 Packet#1191 processed by SDN Controller
+892.7519 Packet#1407 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.7611 Packet#1408 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.7685 Packet#1731 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1688
+Source 4 
+Destination 4 
+4: 3: 2: 1: 0: 5: 6: 8: 9: 7: Next Hop: 9
+892.7818 Packet#1688 processed by SDN Controller
+892.8633 Packet#1705 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+892.8808 Packet#1698 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#117
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+892.9302 Packet#117 processed by SDN Controller
+892.9654 Packet#779 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.0045 Packet#1415 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+893.0174 Packet#1797. Generated (Dice rolled: 1) 
+Source  7
+Destination  6
+Flow Not Set
+893.0174 Packet#1797 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1192
+Source 8 
+Destination 8 
+8: 6: 5: 4: 3: 2: 1: 0: 9: 7: Next Hop: 5
+893.0584 Packet#1192 processed by SDN Controller
+893.0649 Packet#1773 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 7  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1729
+Source 4 
+Destination 5 
+5: Next Hop: 5
+893.1991 Packet#1729 processed by SDN Controller
+893.2768 Packet#1706 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.3054 Packet#1775 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.3562 Packet#642 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1735
+Source 4 
+Destination 5 
+5: Next Hop: 5
+893.3945 Packet#1735 processed by SDN Controller
+893.4261 Packet#679 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.5056 Packet#1784 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.5273 Packet#1792 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1741
+Source 4 
+Destination 5 
+5: Next Hop: 5
+893.5502 Packet#1741 processed by SDN Controller
+893.5835 Packet#1713 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+893.6420 Packet#1779 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 2  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1742
+Source 4 
+Destination 5 
+5: Next Hop: 5
+893.6635 Packet#1742 processed by SDN Controller
+Packet#1761
+Source 4 
+Destination 6 
+6: 5: 8: 9: 7: Next Hop: 5
+893.7952 Packet#1761 processed by SDN Controller
+893.8719 Packet#1066 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+893.8759 Packet#1269 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#522
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+893.9156 Packet#522 processed by SDN Controller
+893.9497 Packet#694 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1777
+Source 9 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: 8: Next Hop: 8
+894.0221 Packet#1777 processed by SDN Controller
+894.0313 Packet#1676 Flow Decisioned by Packet Processor
+894.0313 Packet#1676 Lookup done Packet Removed
+894.0313 Packet#1718 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 6  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+894.0564 Packet#774 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+894.0904 Packet#1265 Flow Decisioned by Packet Processor
+894.0904 Packet#1265 Lookup done Packet Removed
+894.0904 Packet#183 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1583
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+894.1646 Packet#1583 processed by SDN Controller
+894.2132 Packet#1780 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1690
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 6
+894.3161 Packet#1690 processed by SDN Controller
+Packet#1728
+Source 5 
+Destination 6 
+6: Next Hop: 6
+894.4557 Packet#1728 processed by SDN Controller
+894.4583 Packet#827 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 1  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+894.5057 Packet#1798. Generated (Dice rolled: 2) 
+Source  6
+Destination  9
+Flow Not Set
+894.5307 Packet#1426 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+894.5655 Packet#1799. Generated (Dice rolled: 3) 
+Source  0
+Destination  3
+Flow Not Set
+Packet#1799. localflowcheck Nexthop 1
+Source 0 A
+ Destination 3 D
+Flow table of 0
+-1
+-1
+-1
+1
+-1
+-1
+-1
+-1
+-1
+-1
+894.5704 Packet#941 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+894.6041 Packet#1782 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#531
+Source 6 
+Destination 7 
+7: 9: 8: Next Hop: 8
+894.6519 Packet#531 processed by SDN Controller
+Packet#776
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+894.8276 Packet#776 processed by SDN Controller
+894.9448 Packet#1429 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1565
+Source 6 
+Destination 8 
+8: Next Hop: 8
+894.9657 Packet#1565 processed by SDN Controller
+895.0444 Packet#1800. Generated (Dice rolled: 1) 
+Source  5
+Destination  4
+Flow Not Set
+Packet#1788. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1791. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1796. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+895.0728 Packet#1690 Flow Decisioned by Packet Processor
+895.0728 Packet#1690 Lookup done Packet Removed
+895.0728 Packet#1728 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 6  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1669
+Source 3 
+Destination 3 
+3: 2: 1: 0: 4: 5: 6: 8: 9: 7: Next Hop: 8
+895.0756 Packet#1669 processed by SDN Controller
+895.0786 Packet#1800 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+895.1045 Packet#1801. Generated (Dice rolled: 1) 
+Source  3
+Destination  7
+Flow Not Set
+895.1045 Packet#1801 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+895.1115 Packet#1401 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1266
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+895.1913 Packet#1266 processed by SDN Controller
+895.2196 Packet#1669 Flow Decisioned by Packet Processor
+895.2196 Packet#1669 Lookup done Packet Removed
+895.2999 Packet#35 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 2  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+Packet#544
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+895.3498 Packet#544 processed by SDN Controller
+895.4645 Packet#1402 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1717
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+895.5439 Packet#1717 processed by SDN Controller
+Packet#1636
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+895.6633 Packet#1636 processed by SDN Controller
+Packet#1681
+Source 3 
+Destination 3 
+3: 2: 1: 0: 4: 5: 6: 8: 9: 7: Next Hop: 6
+895.8339 Packet#1681 processed by SDN Controller
+895.8826 Packet#1404 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+895.9508 Packet#273 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1740
+Source 5 
+Destination 6 
+6: Next Hop: 6
+895.9733 Packet#1740 processed by SDN Controller
+Packet#483. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+896.0817 Packet#875 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+896.1593 Packet#648 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1612
+Source 8 
+Destination 2 
+2: 1: 0: 3: 4: 5: 6: Next Hop: 6
+896.1638 Packet#1612 processed by SDN Controller
+896.2083 Packet#967 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+896.2949 Packet#1802. Generated (Dice rolled: 4) 
+Source  1
+Destination  4
+Flow Not Set
+896.2949 Packet#1799 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#928
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+896.3079 Packet#928 processed by SDN Controller
+Packet#1802. localflowcheck Nexthop 2
+Source 1 B
+ Destination 4 E
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+896.3956 Packet#1418 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1795
+Source 1 
+Destination 0 
+0: Next Hop: 0
+896.4941 Packet#1795 processed by SDN Controller
+896.5420 Packet#1803. Generated (Dice rolled: 6) 
+Source  6
+Destination  9
+Flow Not Set
+Packet#934
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+896.6632 Packet#934 processed by SDN Controller
+Packet#1725
+Source 3 
+Destination 8 
+8: 6: 5: 4: 9: 7: Next Hop: 4
+896.7785 Packet#1725 processed by SDN Controller
+896.8317 Packet#1596 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1407
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+896.8880 Packet#1407 processed by SDN Controller
+896.9488 Packet#1419 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1408
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+897.0378 Packet#1408 processed by SDN Controller
+897.0754 Packet#1458 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+897.0760 Packet#1804. Generated (Dice rolled: 3) 
+Source  5
+Destination  8
+Flow Not Set
+897.0760 Packet#1636 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 7  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+897.0917 Packet#961 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1731
+Source 3 
+Destination 7 
+7: 9: 8: 6: 5: 4: Next Hop: 4
+897.1782 Packet#1731 processed by SDN Controller
+Packet#1705
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 4
+897.3618 Packet#1705 processed by SDN Controller
+Packet#1698
+Source 3 
+Destination 3 
+3: 2: 1: 0: 4: 5: 6: 8: 9: 7: Next Hop: 4
+897.5300 Packet#1698 processed by SDN Controller
+Packet#779
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+897.6487 Packet#779 processed by SDN Controller
+897.6534 Packet#1405 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+897.6669 Packet#882 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1797
+Source 7 
+Destination 6 
+6: 5: 4: 3: 2: 1: 0: 8: 9: Next Hop: 9
+897.7767 Packet#1797 processed by SDN Controller
+897.7953 Packet#1740 Flow Decisioned by Packet Processor
+check
+Source  5  Destination 6  Nexthop 6
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#1706
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 9
+897.8822 Packet#1706 processed by SDN Controller
+Packet#1804. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+897.8976 Packet#1705 Flow Decisioned by Packet Processor
+897.8976 Packet#1705 Lookup done Packet Removed
+Packet#1775
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+898.0078 Packet#1775 processed by SDN Controller
+898.0633 Packet#1601 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+898.1396 Packet#533 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#642
+Source 6 
+Destination 1 
+1: 0: 2: 3: 4: 5: Next Hop: 5
+898.1890 Packet#642 processed by SDN Controller
+898.3179 Packet#1420 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+898.3454 Packet#1624 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#679
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+898.3463 Packet#679 processed by SDN Controller
+898.3573 Packet#963 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+898.4447 Packet#1805. Generated (Dice rolled: 5) 
+Source  7
+Destination  0
+Flow Not Set
+898.4447 Packet#1797 Flow Decisioned by Packet Processor
+check
+Source  7  Destination 6  Nexthop 9
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1805. localflowcheck Nexthop 9
+Source 7 H
+ Destination 0 A
+Flow table of 7
+9
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1784
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+898.4672 Packet#1784 processed by SDN Controller
+898.5610 Packet#903 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1792
+Source 3 
+Destination 5 
+5: 4: 6: 8: 9: 7: Next Hop: 4
+898.6185 Packet#1792 processed by SDN Controller
+Packet#1713
+Source 5 
+Destination 5 
+5: 4: 3: 2: 1: 0: 6: 8: 9: 7: Next Hop: 4
+898.7507 Packet#1713 processed by SDN Controller
+898.8293 Packet#246 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#694
+Source 8 
+Destination 7 
+7: 9: Next Hop: 9
+898.8566 Packet#694 processed by SDN Controller
+898.8642 Packet#1806. Generated (Dice rolled: 5) 
+Source  5
+Destination  8
+Flow Not Set
+898.8642 Packet#1706 Flow Decisioned by Packet Processor
+898.8642 Packet#1706 Lookup done Packet Removed
+898.8642 Packet#1713 Flow Decisioned by Packet Processor
+898.8642 Packet#1713 Lookup done Packet Removed
+Packet#1806. localflowcheck Nexthop 6
+Source 5 F
+ Destination 8 I
+Flow table of 5
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+6
+-1
+Packet#743. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+898.8851 Packet#202 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#183
+Source 6 
+Destination 2 
+2: 1: 0: 3: 4: 5: Next Hop: 5
+898.9706 Packet#183 processed by SDN Controller
+898.9941 Packet#884 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+899.1214 Packet#1807. Generated (Dice rolled: 1) 
+Source  1
+Destination  2
+Flow Not Set
+899.1214 Packet#1795 Flow Decisioned by Packet Processor
+check
+Source  1  Destination 0  Nexthop 2
+Flow table of 1
+-1
+-1
+-1
+-1
+2
+-1
+-1
+-1
+-1
+-1
+Packet#1780
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+899.1311 Packet#1780 processed by SDN Controller
+Packet#941
+Source 8 
+Destination 0 
+0: 1: 2: 3: 4: 5: 6: Next Hop: 6
+899.3162 Packet#941 processed by SDN Controller
+899.3177 Packet#1808. Generated (Dice rolled: 3) 
+Source  6
+Destination  9
+Flow Not Set
+899.3358 Packet#1204 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+899.4342 Packet#886 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 2  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1782
+Source 5 
+Destination 7 
+7: 9: 8: 6: Next Hop: 6
+899.4509 Packet#1782 processed by SDN Controller
+Packet#1087. localflowcheck Nexthop 8
+Source 6 G
+ Destination 9 J
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+899.4777 Packet#905 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+899.4896 Packet#625 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+899.5080 Packet#1807 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#257. localflowcheck Nexthop 6
+Source 8 I
+ Destination 1 B
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+899.5759 Packet#856 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1800
+Source 5 
+Destination 4 
+4: 3: 2: 1: 0: Next Hop: 4
+899.6058 Packet#1800 processed by SDN Controller
+899.6303 Packet#199 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+899.6540 Packet#1019 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 7  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+899.7084 Packet#113 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+899.7119 Packet#1057 Flow Decisioned by Packet Processor
+899.7119 Packet#1057 Lookup done Packet Removed
+899.7119 Packet#703 Lookup could not be done by Packet Processor ,Forwarded to SDN Controller
+Packet#1801
+Source 3 
+Destination 7 
+7: 9: 8: 6: 5: 4: Next Hop: 4
+899.7228 Packet#1801 processed by SDN Controller
+899.7872 Packet#862 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 0  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+Packet#1401
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+899.8411 Packet#1401 processed by SDN Controller
+899.8608 Packet#1296 Flow Decisioned by Packet Processor
+check
+Source  6  Destination 0  Nexthop 8
+Flow table of 6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+8
+899.9401 Packet#435 Flow Decisioned by Packet Processor
+check
+Source  8  Destination 9  Nexthop 6
+Flow table of 8
+-1
+6
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+-1
+899.9522 Packet#1809. Generated (Dice rolled: 5) 
+Source  8
+Destination  1
+Flow Not Set
+Packet#1402
+Source 8 
+Destination 9 
+9: 7: Next Hop: 9
+899.9995 Packet#1402 processed by SDN Controller
+ProcessExampleExperiment stopped at simulation time 900.0000.
+At least one error or warning has occurred.
+Please refer to the error output for details.
