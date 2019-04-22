@@ -90,7 +90,7 @@ public class PacketGenerator extends SimProcess {
                                 packet.mydest=model.A;*/
                         }
 //                      /////////////////////////////////////////////////////////                                
-                        System.out.println("PacketGenerated: " +model.NodeList.indexOf(packet.myclient));
+                        System.out.println("PacketGenerated: " +model.NodeList.indexOf(packet.myclient)+" "+model.NodeList.indexOf(packet.mydest));
 //                      /////////////////////////////////////////////////////////
 
                         packet.getFlow();

@@ -53,6 +53,19 @@ public class DFS {
         	 }
         	 System.out.println();
          }
+//       /////////////////////////////////////////////////////////
+         System.out.println("MatrixStart");
+         for(int i1=0;i1<spnMatrix.length;i1++) {
+       	  System.out.print("Matrix ");
+       	  String lin="";
+       	  for(int j=0;j<spnMatrix[i1].length;j++) {
+       		  lin=lin+spnMatrix[i1][j]+" ";
+       	  }
+       	  System.out.println(lin);
+         }
+         System.out.println("MatrixEnd");
+//         ///////////////////////////////////////////////////////////                
+
          for(i=0;i<n;i++) {
         	 isVisited[i]=0;
          }

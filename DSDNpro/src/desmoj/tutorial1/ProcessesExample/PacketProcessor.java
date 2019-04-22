@@ -140,7 +140,7 @@ public class PacketProcessor extends SimProcess {
                                         //{
                                         myclient.flow_table[myclient.ft_desid]=nextPacket.nexthop;
 //                                      /////////////////////////////////////////////////////////
-                                      System.out.println("FlowTable: "+myclient.ft_desid+" "+myModel.NodeList.indexOf(nextPacket.nexthop));
+                                      System.out.println("FlowTable: "+ myModel.NodeList.indexOf(myclient) +" "+myclient.ft_desid+" "+myModel.NodeList.indexOf(nextPacket.nexthop));
 //                                      ///////////////////////////////////////////////////////////
                                       
                                       

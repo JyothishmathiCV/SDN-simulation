@@ -258,6 +258,7 @@ public class ProcessesExample extends Model {
                 
 		// stop all threads still alive and close all output files
 		exp.finish();
+		System.out.println("endgame--");
                 
 	}
 } /* end of model class */
