@@ -2,12 +2,20 @@
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="myModel"/>
+		<item key="selection" value="spnMatrix"/>
 		<item key="casesensitive" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="wholeword" value="false"/>
 		<list key="findhistory">
+			<item value="spnMatrix"/>
+			<item value="dfs"/>
+			<item value="flow_table"/>
+			<item value="printFlowTable"/>
+			<item value="flow"/>
+			<item value="main"/>
+			<item value="next"/>
+			<item value="thread"/>
 			<item value="packetQueue"/>
 			<item value="mymodel"/>
 			<item value="packetQueu"/>
