@@ -32,12 +32,25 @@ public class OpenFlowController extends SimProcess {
                              { 0, 0, 0, 0, 0, 0, 1, 0, 0, 1},
                              { 0, 0, 0, 0, 0, 0, 0, 1, 1, 0},
                           };
+//                /////////////////////////////////////////////////////////
+                  System.out.println("MatrixStart");
+                  for(int i=0;i<adjMatrix.length;i++) {
+                	  System.out.println("Matrix");
+                	  String lin="";
+                	  for(int j=0;j<adjMatrix[i].length;j++) {
+                		  lin=lin+adjMatrix[i][j]+" ";
+                	  }
+                	  System.out.println(lin);
+                  }
+                  System.out.println("MatrixEnd");
+//                  ///////////////////////////////////////////////////////////                
+                    
                   for(int i=0;i<myModel.NodeList.size();i++)
                   {
                       System.out.println(myModel.NodeList.get(i).name);
                       
                   }
-                  df.DFS(adjMatrix,10);
+                  df.dFS(adjMatrix,10);
                                 while(true) 
                                 {
                                 /*    int[][] adjMatrix = {  { 0, 1, 1, 0, 0, 0, 0, 0, 0, 0},  // 0
@@ -77,6 +90,11 @@ public class OpenFlowController extends SimProcess {
                                  myModel.getTimeStamp();
                                 System.out.println(nextPacket.getName()+" processed by SDN Controller");
                                 nextPacket.nexthop= myModel.NodeList.get(next);
+//                              ///////////////////////////////////////////////////////// 
+                                System.out.println("PacketFlow: "+"SDN" +" "+indes+" "+insrc);
+//                              /////////////////////////////////////////////////////////
+                               
+                                
                              //  nextPacket.getFlow();
                                 
                              /*   if(nextPacket.myclient.name.equals("A"))

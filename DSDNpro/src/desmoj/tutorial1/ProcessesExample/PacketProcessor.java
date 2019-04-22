@@ -85,6 +85,10 @@ public class PacketProcessor extends SimProcess {
                                     System.out.println(nextPacket.getName()+"."+" "+"localflowcheck " +"Nexthop "+hopid);
                                     System.out.println("Source "+myModel.NodeList.indexOf(nextPacket.myclient)+" "+nextPacket.myclient.name);
                                     System.out.println(" Destination "+myModel.NodeList.indexOf(nextPacket.mydest)+" "+nextPacket.mydest.name);
+//                                  /////////////////////////////////////////////////////////
+                                  System.out.println("PacketFlow: "+myModel.NodeList.indexOf(myclient)+" "+myModel.NodeList.indexOf(nextPacket.mydest)+" "+myModel.NodeList.indexOf(nextPacket.nexthop));
+//                                  ///////////////////////////////////////////////////////////
+
                                     nextPacket.resetFlow();
                                     myModel.NodeList.get(hopid).packetQueue.insert(nextPacket);
                                     myModel.NodeList.get(hopid).tempQueue.insert(nextPacket);
@@ -95,6 +99,10 @@ public class PacketProcessor extends SimProcess {
                                 if(!nextPacket.getFlowStatus())
                                 {
                                 System.out.println(myModel.getExperiment().getSimClock().getTime()+" "+ nextPacket.getName()+" Lookup could not be done by Packet Processor ,Forwarded to SDN Controller");
+//                              /////////////////////////////////////////////////////////                                
+                                System.out.println("PacketFlow: "+myModel.NodeList.indexOf(myclient)+" "+"SDN"+" "+"SDN");
+//                              /////////////////////////////////////////////////////////
+
                                 myModel.controllerQueue.insert(nextPacket);
                                 }
                                 else
@@ -106,7 +114,10 @@ public class PacketProcessor extends SimProcess {
                                         if(nextPacket.mydest==nextPacket.myclient)
                                         {                                      
                                         nextPacket.setServiced();                                     
-                                    
+//                                      /////////////////////////////////////////////////////////
+                                        System.out.println("PacketRemoved: "+myModel.NodeList.indexOf(nextPacket.mydest));
+//                                        ///////////////////////////////////////////////////////////                                    
+
                                         myModel.getTimeStamp();
                                         System.out.println(nextPacket.getName()+" Lookup done Packet Removed");
                                     
@@ -128,6 +139,15 @@ public class PacketProcessor extends SimProcess {
                                        // if(myclient.flow_table[myclient.ft_desid].equals(null))
                                         //{
                                         myclient.flow_table[myclient.ft_desid]=nextPacket.nexthop;
+//                                      /////////////////////////////////////////////////////////
+                                      System.out.println("FlowTable: "+myclient.ft_desid+" "+myModel.NodeList.indexOf(nextPacket.nexthop));
+//                                      ///////////////////////////////////////////////////////////
+                                      
+                                      
+//                                    /////////////////////////////////////////////////////////
+                                      System.out.println("PacketFlow: "+myModel.NodeList.indexOf(myclient)+" "+myModel.NodeList.indexOf(nextPacket.mydest)+" "+myModel.NodeList.indexOf(nextPacket.nexthop));
+//                                      ///////////////////////////////////////////////////////////
+
                                         }
                                         //} 
                                         

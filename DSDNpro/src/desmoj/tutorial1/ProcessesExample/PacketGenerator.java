@@ -89,6 +89,10 @@ public class PacketGenerator extends SimProcess {
                             else if(packet.myclient.name.equals("B"))
                                 packet.mydest=model.A;*/
                         }
+//                      /////////////////////////////////////////////////////////                                
+                        System.out.println("PacketGenerated: " +model.NodeList.indexOf(packet.myclient));
+//                      /////////////////////////////////////////////////////////
+
                         packet.getFlow();
 
 			// now let the newly created packet roll on queue

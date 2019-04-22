@@ -59,6 +59,7 @@ public class PacketGenerator extends SimProcess {
                          packet.mydest=model.NodeList.get((model.NodeList.indexOf(packet.myclient)+3)%10);
                           int des= model.NodeList.indexOf(packet.mydest);
                           System.out.println("Destination  " +des);
+                 
                          /* packet.nexthop=model.NodeList.get((model.NodeList.indexOf(packet.myclient)+1)%10);
                           int nexthop=model.NodeList.indexOf(packet.nexthop);
                           System.out.println("NextHop"+nexthop);*/
@@ -86,6 +87,10 @@ public class PacketGenerator extends SimProcess {
                             else if(packet.myclient.name.equals("B"))
                                 packet.mydest=model.A;*/
                         }
+//                      /////////////////////////////////////////////////////////                                
+                        System.out.println("PacketGenerated: " +model.NodeList.indexOf(packet.myclient));
+//                      /////////////////////////////////////////////////////////
+                       
                         packet.getFlow();
 
 			// now let the newly created packet roll on queue
