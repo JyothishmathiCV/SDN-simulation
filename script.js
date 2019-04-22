@@ -14,14 +14,22 @@ if(regex.test(d)){
  masterBufferSplit=masterBuffer.split("\n");
  masterBufferSplit.forEach(lin => {
      nlin=lin.split(" ");
-     if(nlin[0].includes("PacketGenerated:")){
-         console.log(`Packet is generated------Source: ${nlin[1]} Destination: ${nlin[2]}`);
+    if(nlin[0].includes("PacketGenerated:")){
+        console.log(`Packet is generated------Source: ${nlin[1]} Destination: ${nlin[2]}`);
      }
      if(nlin[0].includes("PacketRemoved:")){
         console.log(`Packet is removed------Source: ${nlin[1]}`);
     }
     if(nlin[0].includes("PacketFlow:")){
-        console.log(`Packet sent------Source: ${nlin[1]} Destination: ${nlin[2]} NextHop: ${nlin[3]}`);
+        if(nlin[1]=="SDN" && nlin[2]!="SDN"){//SDN to destination
+            console.log(`Packet sent------Source: SDN Destination: ${nlin[2]} NextHop: ${nlin[3]}`);
+        }
+        else if(nlin[1]!="SDN" && nlin[2]=="SDN"){//From client to the SDN
+            console.log(`Packet sent------Source: ${nlin[1]} Destination: SDN NextHop: SDN`);
+        }
+        else{
+            console.log(`Packet sent------Source: ${nlin[1]} Destination: ${nlin[2]} NextHop: ${nlin[3]}`);
+        }
     }
     if(nlin[0].includes("FlowTable:")){
         console.log(`New row of flowtable updated------Source: ${nlin[1]} Destination: ${nlin[2]} NextHopDecided: ${nlin[3]}`);
