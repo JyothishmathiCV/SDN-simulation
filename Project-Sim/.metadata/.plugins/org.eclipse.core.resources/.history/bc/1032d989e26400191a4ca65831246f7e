@@ -1,0 +1,268 @@
+package distproj;
+
+import desmoj.core.simulator.*;
+import desmoj.core.dist.*;
+import java.util.ArrayList;
+import java.util.concurrent.TimeUnit;
+
+/**
+ * This is the model class. It is the main class of a simple process-oriented
+ * model of the loading zone of a container terminal.Packet arrive at the
+ * queue. They wait in line until a processor is
+ * available to fetch a certain packet. After
+ * loading is completed, the packet leaves the queue while the processor
+ * serves the next packet.
+ * @author Olaf Neidhardt, Ruth Meyer
+ */
+ 
+public class ProcessesExample extends Model {
+
+	/**
+	 * model parameter: the number of van carriers
+	 */
+	/**
+	* Random number stream used to draw an arrival time for the next packet.
+	* See init() method for stream parameters.
+	*/
+	private desmoj.core.dist.ContDistExponential packetArrivalTime;
+	/**
+	* Random number stream used to draw a service time for a packet.
+	* Describes the time needed by the processor to remove the packet.
+	* See init() method for stream parameters.
+	*/
+        ArrayList<Client> NodeList;
+        Client A,B,C,D,E,F,G,H,I,J; 
+        
+	private desmoj.core.dist.ContDistExponential serviceTime;
+        private desmoj.core.dist.ContDistUniform OpenFlowServiceTime;
+//	protected desmoj.core.simulator.ProcessQueue<Packet> packetQueue;
+        protected desmoj.core.simulator.ProcessQueue<Packet> controllerQueue;
+ //       protected desmoj.core.simulator.ProcessQueue<Packet> flowQueue;
+//	protected desmoj.core.simulator.ProcessQueue<PacketProcessor> idleQueue;
+        
+	/**
+	 * ProcessesExample constructor.
+	 *
+	 * Creates a new ProcessesExample model via calling
+	 * the constructor of the superclass.
+	 *
+	 * @param owner the model this model is part of (set to <tt>null</tt> when there is no such model)
+	 * @param modelName this model's name
+	 * @param showInReport flag to indicate if this model shall produce output to the report file
+	 * @param showInTrace flag to indicate if this model shall produce output to the trace file
+	 */
+//	public ProcessesExample(Model owner, String modelName, boolean showInReport, boolean showInTrace) {
+//		super(owner, modelName, showInReport, showInTrace);
+//	}
+	/**
+	 * returns a description of the model to be used in the report.
+	 * @return model description as a string
+	 */
+	public String description() {
+		return "This model describes a queueing system located at a "+
+					 "container terminal. Packet will arrive and "+
+					 "insert into queue. A processor) is "+
+					 "on duty."+
+					 "It will then remove the packet from the packet queue and service the packet "+
+					 "Afterwards, the packet leaves the queue. "+
+					 "In case the processor is busy, the packet waits "+
+					 "for its turn on the packet queue. "+
+					 "If the processor is idle, it waits until "+
+					 "packet to come.";
+	}
+	/**
+	 * activates dynamic model components (simulation processes).
+	 *
+	 * This method is used to place all events or processes on the
+	 * internal event list of the simulator which are necessary to start
+	 * the simulation.
+	 *
+	 * In this case, the packet generator and the processor have to be
+	 * created and activated.
+	 */
+	public void doInitialSchedules() {
+
+		// create and activate the van carrier(s)
+         //   System.out.println("CIS"+A.packetQueue.length());
+            A.clientInitSchedule(); 
+            B.clientInitSchedule();
+            C.clientInitSchedule(); 
+            D.clientInitSchedule();
+            E.clientInitSchedule(); 
+            F.clientInitSchedule();
+            G.clientInitSchedule(); 
+            H.clientInitSchedule();
+            I.clientInitSchedule(); 
+            J.clientInitSchedule();
+             
+           /* F.clientInitSchedule();
+            G.clientInitSchedule(); 
+            H.clientInitSchedule();
+            I.clientInitSchedule(); 
+            J.clientInitSchedule();*/
+//		for (int i=0; i < NUM_Processor; i++)
+//		{
+//			PacketProcessor vanCarrier = new PacketProcessor(this, "Packet Processor", true);
+//			vanCarrier.activate(new TimeSpan(0.0));
+//	         // Use TimeSpan to activate a process after a span of time relative to actual simulation time,
+//	         // or use TimeInstant to activate the process at an absolute point in time.
+//		}
+
+		//create and activate the packet processor generator process
+//		PacketGenerator generator = new PacketGenerator(this,"PacketArrival",false);
+//		generator.activate(new TimeSpan(0.0));                  
+                OpenFlowController OFC = new OpenFlowController(this,"OpenFlowController",false);
+		OFC.activate(new TimeSpan(1.0));
+	}
+	/**
+	 * initialises static model components like distributions and queues.
+	 */
+	@SuppressWarnings({ "rawtypes", "unchecked" })
+	public void init() {
+
+		// initalising the serviceTimeStream
+		// Parameters:
+		// this                = belongs to this model
+		// "ServiceTimeStream" = the name of the stream
+		// 3.0                 = minimum time in minutes to deliver a container
+		// 7.0                 = maximum time in minutes to deliver a container
+		// true                = show in report?
+		// false               = show in trace?
+		//serviceTime= new ContDistUniform(this, "ServiceTimeStream", 0.9, 0.9, true, false);
+                serviceTime= new ContDistExponential(this, "ServiceTimeStream", 0.3, true, false);
+                OpenFlowServiceTime= new ContDistUniform(this, "OpenFlowServiceTimeStream", 0.1, 0.2, true, false);
+		// initalising the processorArrivalTimeStream
+		// Parameters:
+		// this                     = belongs to this model
+		// "processorArrivalTimeStream" = the name of the stream
+		// 3.0                      = mean time in minutes between arrival of packet
+		// true                     = show in report?
+		// false                    = show in trace?
+		packetArrivalTime= new ContDistExponential(this, "PacketArrivalTimeStream", 5.0, true, false);
+
+		// necessary because an inter-arrival time can not be negative, but
+		// a sample of an exponential distribution can...
+		packetArrivalTime.setNonNegative(true);
+
+		// initalising the packetQueue
+		// Parameters:
+		// this          = belongs to this model
+		// "Packet Queue" = the name of the Queue
+		// true          = show in report?
+		// true          = show in trace?
+	//	packetQueue = new ProcessQueue<Packet>(this, "Packet Queue", true, true);
+              controllerQueue = new ProcessQueue<Packet>(this, "Controller Queue", true, true);
+        //      flowQueue = new ProcessQueue<Packet>(this, "Receiver Queue (Bkp)", true, true);
+                 
+		// initalising the idleVCQueue
+		// Parameters:
+		// this            = belongs to this model
+		// "idle VC Queue" = the name of the Queue
+		// true            = show in report?
+		// true            = show in trace?
+	//	idleQueue = new ProcessQueue<PacketProcessor>(this, "idle VC Queue", true, true);
+	        A = new Client(this,"A");
+                B = new Client(this,"B");
+                C = new Client(this,"C");
+                D = new Client(this,"D");
+                E = new Client(this,"E");
+                F = new Client(this,"F");
+                G = new Client(this,"G");
+                H = new Client(this,"H");
+                I = new Client(this,"I");
+                J = new Client(this,"J");
+                NodeList = new ArrayList(); 
+                NodeList.add(A);
+                NodeList.add(B);
+                NodeList.add(C);
+                NodeList.add(D);
+                NodeList.add(E);
+                NodeList.add(F);
+                NodeList.add(G);
+                NodeList.add(H);
+                NodeList.add(I);
+                NodeList.add(J);
+//              /////////////////////////////////////////////////////////
+              System.out.println("");
+//              ///////////////////////////////////////////////////////////                
+                
+ 
+        }
+        public void getTimeStamp()
+        {
+            System.out.print(getExperiment().getSimClock().getTime()+" ");
+        }
+	public double getServiceTime() {
+		return serviceTime.sample();
+	}
+        public double getOpenFlowServiceTime() {
+		return OpenFlowServiceTime.sample();
+	}
+       
+
+	/**
+	 * Returns a sample of the random stream used to determine
+	 * the next packet arrival time.
+	 *
+	 * @return double a packetArrivalTime sample
+	 */
+	public double getPacketArrivalTime() {
+		return packetArrivalTime.sample();
+	}
+	/**
+	 * Runs the model.
+	 *
+	 * In DESMO-J used to
+	 *    - instantiate the experiment
+	 *    - instantiate the model
+	 *    - connect the model to the experiment
+	 *    - steer length of simulation and outputs
+	 *    - set the ending criterion (normally the time)
+	 *    - start the simulation
+	 *    - initiate reporting
+	 *    - clean up the experiment
+	 *
+	 * @param args is an array of command-line arguments (will be ignored here)
+	 */
+	public static void main(java.lang.String[] args) {
+
+		// create model and experiment
+		ProcessesExample model = new ProcessesExample(null, "ProcessesExample", true, true);
+                // null as first parameter because it is the main model and has no mastermodel
+      
+                @SuppressWarnings("deprecation")
+				Experiment exp = new Experiment("ProcessExampleExperiment", TimeUnit.SECONDS, TimeUnit.MINUTES, null);
+                // ATTENTION, since the name of the experiment is used in the names of the
+                // output files, you have to specify a string that's compatible with the
+                // filename constraints of your computer's operating system. The remaing three
+                // parameters specify the granularity of simulation time, default unit to
+                // display time and the time formatter to use (null yields a default formatter).
+		// connect both
+		model.connectToExperiment(exp);
+
+		// set experiment parameters
+		 exp.setShowProgressBar(false);  // display a progress bar (or not)
+		exp.stop(new TimeInstant(15, TimeUnit.MINUTES));   // set end of simulation at 1500 minutes
+		exp.tracePeriod(new TimeInstant(0), new TimeInstant(100, TimeUnit.MINUTES));  // set the period of the trace
+		exp.debugPeriod(new TimeInstant(0), new TimeInstant(50, TimeUnit.MINUTES));   // and debug output
+			// ATTENTION!
+			// Don't use too long periods. Otherwise a huge HTML page will
+			// be created which crashes Netscape :-)
+
+		// start the Experiment at simulation time 0.0
+		exp.start();
+               
+		// --> now the simulation is running until it reaches its end criterium
+		// ...
+		// ...
+		// <-- afterwards, the main thread returns here
+
+		// generate the report (and other output files)
+		exp.report();
+                
+                
+		// stop all threads still alive and close all output files
+		exp.finish();
+                
+	}
+} /* end of model class */

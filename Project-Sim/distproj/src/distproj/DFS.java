@@ -29,7 +29,7 @@ public class DFS {
      */
    
 
-    public void DFS(int[][] Matrix,int n) {
+    public void dFS(int[][] Matrix,int n) {
 
          this.matrix = Matrix;
          st = new Stack<Integer>();
