@@ -5,23 +5,18 @@
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
 	<style type="text/css">
-		canvas{
-			border:2px solid black;
-		}
+
 		*{
 			margin:0;
 			padding:0;
-			transition: 0.5s all;
 		}
 			body {
 				margin: 0; 	
 			  height: 100vh;
 			}
-			div{
-				background: white;
-				display: flex;
-			}
+	
 			.parent{
+				display: flex;
 				border:1px solid black;
 			}
 			.parent>div{
@@ -33,27 +28,77 @@
 			.animated{
 				animation-duration: 0.7s;
 			}
+			@keyframes rotate{
+				0%{
+					transform: rotate(0deg);
+				}
+
+				100%{
+					transform: rotate(360deg)
+				}
+			}
+			.cog{
+				width:25px;height:25px;flex:1;margin:2px 5px 2px 5px;
+			}
+			.queue{
+				padding:6px;flex:9;margin: 2px
+			}
+			.flex{
+				display: flex;
+			}
+			.flow{
+				border:3px solid black;
+				padding:5px;
+				margin-top:5px;
+			}
+			.flow >div{
+				width:2%;
+				padding-top:3%;
+				padding-bottom: 3%;
+			     margin-left:4px;
+				 margin-right:2px;	
+				 background: red;	color:white	}
 		</style>
 </head>
 <body>
-<div style="width:25vw;padding:6px;" class="parent"></div>
+	<div style="width:25vw">
+		<p>Status</p>
+			<div class="flex">
+					<img src="public/cog.png" class="cog" alt="">
+		<div class="parent queue"></div>
+			</div>
+			<div class="parent flex flow">
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+				<div>-1</div>
+			</div>
+	</div>
+	
+
 	<script>
 	var parent=document.querySelector(".parent");
 var inter;
-var colors=["#f44336","#e91e63","#9c27b0","#673ab7","#3f51b5","#2196f3","#f4511e","#cddc39","#fb8c00","#263238"];
 
 	function add(){
-	    var div=document.createElement('div');
+			var div=document.createElement('div');
 		div.className="animated fadeInRight";
-		div.style.background=colors[Math.floor(Math.random()*colors.length)];
 	    parent.appendChild(div);
 	}
 
 function remove(){
 	var victim=parent.children[0];
+	parent.previousElementSibling.style="animation:rotate 0.8s";
 	victim.classList.add("zoomOut");
 	setTimeout(function(){
 		victim.remove();
+		parent.previousElementSibling.style="";
 	},800)
 }
 

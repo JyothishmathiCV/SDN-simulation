@@ -15,7 +15,6 @@
     for(var a = 0;a<adj.length;a++){
         adj[a]=adj[a].split(" ");
     }
-    console.log(adj);
     
     var colors=["#f44336","#e91e63","#9c27b0","#673ab7","#3f51b5","#2196f3","#f4511e","#cddc39","#fb8c00","#263238"];
     
@@ -39,7 +38,13 @@
             y:0,
             color:colors[i]
         });
-    })
+    });
+    var sdn={
+        name:"SDN",
+        x:1000,
+        y:45,
+        color:"#303f9f"
+    };
     var c = canvas.getContext('2d');
     var lengthR = 100;
     var breadth = 100;
@@ -132,14 +137,21 @@ let c2=cv2.getContext('2d');
 
 
 
-c.fillStyle="black"
+c.fillStyle="#303f9f"
 var myControl=animate.init(3,rect,c2);
+c.fillRect(0,0,2000,75);
+c.font='42px Poppins';
+changeColor(c,"white");
+c.fillText("SDN",1000,45);
 myControl.feed("a => c");
 myControl.feed("f => i");
 myControl.feed("a => j");
 setTimeout(function(){
     myControl.feed("a => g"); //mimicing packet arriving at any time
 },2000);
+
+window.parent.stuff=window;
+
 
 
 

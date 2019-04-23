@@ -79,7 +79,7 @@ public class OpenFlowController extends SimProcess {
                                 System.out.println(nextPacket.getName()+" processed by SDN Controller");
                                 nextPacket.nexthop= myModel.NodeList.get(next);
 //                              ///////////////////////////////////////////////////////// 
-                                System.out.println("PacketFlow: "+"SDN" +" "+indes+" "+insrc);
+                                System.out.println("PacketFlow: "+"SDN" +" "+indes+" "+insrc+" "+next);
 //                              /////////////////////////////////////////////////////////
 
                              //  nextPacket.getFlow();

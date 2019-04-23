@@ -6,8 +6,9 @@ var eventHorizon=[];
 var i=0;
 var brush;
 var reversedir=false;
+var sdnobj;
 
-    function draw(){
+    function draw(res,rej){
         clear();
         let eventPool=eventHorizon.length;
         eventHorizon.forEach((d,j)=>{
@@ -23,7 +24,7 @@ var reversedir=false;
                 if(d.x>=d.dest[0] && d.y>=d.dest[1]){ i+=1;d.reached=true}
             }
           
-            if(i==eventPool){stop();flush()}
+            if(i==eventPool){stop();flush();}
         });
           if(mutexLock){
             requestAnimationFrame(draw);
@@ -31,8 +32,11 @@ var reversedir=false;
     }
     
     function flush(){
-        while(eventHorizon.length)
-            eventHorizon.pop();
+        console.log(eventHorizon);
+        while(eventHorizon.length){
+        eventHorizon[eventHorizon.length-1].res("done");
+        eventHorizon.pop();
+        }
     }
     function drawRect(color,x,y){
         brush.fillStyle=color;
@@ -62,16 +66,27 @@ var reversedir=false;
     }
 
 
-    function transform(obj){
-        var src=rect[obj.source];
-        var dest=rect[obj.destination];
+    function transform(obj,res,rej){
+        var src,dest;
+        if("dest" in obj){
+          src=sdnobj;
+          dest=rect[obj.dest];
+        }else if("sdnobj" in obj){
+             src=rect[obj.source];
+             dest=sdnobj;
+        }else{
+             src=rect[obj.source];
+             dest=rect[obj.destination];
+        }
         var temp={
             x:src.x,
             y:src.y,
-            color:rect[obj.destination]['color'],
+            color:dest['color'],
             dest:[dest.x,dest.y],
             cache:'',
-            reached:false
+            reached:false,
+            res,
+            rej
         }
         decideDir(temp);
         return  temp;
@@ -95,28 +110,50 @@ var reversedir=false;
       }
 
 
-      function converse(obj){
-        eventHorizon.push(transform(obj));
+      function converse(obj,res,rej){
+        eventHorizon.push(transform(obj,res,rej));
           if(mutexLock){return ;}
           mutexLock=1;
-          draw();
+          console.log(res,rej)
+          draw(res,rej);
+      }
+      function trim(str){
+          return str.replace(/\s+/g,"");
       }
 
     return {
-        init:function(v,r,c){
+        init:function(v,r,c,sdn){
+            sdnobj=sdn;
             velocity=v||velocity;
             rect=r;
             brush=c;
 
             return {
                 feed:function(str){
-                    var nos=str.split("=>");
-                    var [source,destination]=isAlpha(nos);
-                        converse({source,destination});
+                    str=trim(str);
+                    return new Promise((res,rej)=>{
+                        var nos=str.split("=>");
+                        var [source,destination]=isAlpha(nos);
+                            converse({source,destination},res,rej);
+                    });
  
                },
                peek:function(){
                    return eventHorizon.length;
+               },
+               manpSdn(str){
+                str=trim(str);
+                return new Promise((res,rej)=>{
+                    if(str[0]=="=>")
+                    {
+                        var [source]=isAlpha([str[0]]);
+                        converse({sdnobj,dest},res,rej);
+                    }else{
+                        var [source]=isAlpha([str[0]]);
+                        converse({source,sdnobj},res,rej);
+                    }
+                 
+                });
                },
                checkMutex:function(){
                    return mutexLock;
@@ -131,4 +168,3 @@ var reversedir=false;
 
 
 
-master="lrvmnir bpr sumvbwvr jx bpr lmiwv yjeryrkbi jx qmbm wi \n bpr xjvni mkd ymibrut jx irhx wi bpr riirkvr jx \n ymbinlmtmipw utn qmumbr dj w ipmhh but bj rhnvwdmbr bpr \n yjeryrkbi jx bpr qmbm mvvjudwko bj yt wkbrusurbmbwjk \n lmird jk xjubt trmui jx ibndt \n wb wi kjb mk rmit bmiq bj rashmwk rmvp yjeryrkb mkd wbi \n iwokwxwvmkvr mkd ijyr ynib urymwk nkrashmwkrd bj ower m \n vjyshrbr rashmkmbwjk jkr cjnhd pmer bj lr fnmhwxwrd mkd \n wkiswurd bj invp mk rabrkb bpmb pr vjnhd urmvp bpr ibmbr \n jx rkhwopbrkrd ywkd vmsmlhr jx urvjokwgwko ijnkdhrii \n ijnkd mkd ipmsrhrii ipmsr w dj kjb drry ytirhx bpr xwkmh \n mnbpjuwbt lnb yt rasruwrkvr cwbp qmbm pmi hrxb kj djnlb \n bpmb bpr xjhhjcwko wi bpr sujsru msshwvmbwjk mkd \n wkbrusurbmbwjk w jxxru yt bprjuwri wk bpr pjsr bpmb bpr \n riirkvr jx jqwkmcmk qmumbr cwhh urymwk wkbmvb"
